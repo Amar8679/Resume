@@ -2,23 +2,18 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    background: linear-gradient(to right, #0052cc, #33cc99); /* Blue-green gradient background */
-    color: #ffffff; /* Light text color */
+    font-size: 35px;
+    background: linear-gradient(to right, #0052cc, #33cc99);
+    color: #ffffff;
 }
 
 body.p {
     font-size: 30px;
-    color: #ffffff; /* Light text color for paragraphs */
-}
-
-p {
-    font-size: 35px;
+    color: #ffffff;
 }
 
 .navbar {
-    background: linear-gradient(to right, #004080, #008066); /* Blue-green gradient for the navbar */
-    border: none;
+    background: linear-gradient(to right, #004080, #008066);
     position: absolute;
     width: 100%;
     top: 0;
@@ -30,7 +25,7 @@ p {
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:hover,
 .navbar-inverse .navbar-nav .active a:focus {
-    background: linear-gradient(to right, #001a40, #004d40); /* Blue-green gradient for the active link */
+    background: linear-gradient(to right, #001a40, #004d40);
     color: #ffffff;
     font-size: 14px;
 }
@@ -40,7 +35,7 @@ p {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-top: 50px; /* Adjust the margin-top to create space below the navbar */
+    margin-top: 50px;
 }
 
 footer{
