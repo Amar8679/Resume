@@ -3,12 +3,12 @@ body, html {
     padding: 0;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    background-color: #4e7328; /* Darker background color */
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Blue-purple gradient background */
     color: #ffffff; /* Light text color */
 }
 
 .navbar {
-    background-color: #0e5e33; /* Darker shade for the navbar */
+    background: linear-gradient(to right, #2980b9, #8e44ad); /* Blue-purple gradient for the navbar */
     border: none;
     position: absolute;
     width: 100%;
@@ -18,10 +18,14 @@ body, html {
     color: #ffffff;
 }
 
+p {
+    font-size: 25px;
+}
+
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:hover,
 .navbar-inverse .navbar-nav .active a:focus {
-    background-color: #0b4e28; /* Slightly darker shade for the active link */
+    background: linear-gradient(to right, #1f618d, #633974); /* Blue-purple gradient for the active link */
     color: #ffffff;
     font-size: 14px;
 }
@@ -33,7 +37,7 @@ body, html {
     height: 100vh;
 }
 
-footer{
+footer {
     color: rgb(30, 20, 20);
     font-size: small;
 }
