@@ -7,4 +7,11 @@ $(document).ready(function () {
       }
     });
   });
+
+$(document).ready(function(){
+    var interval = 5000;
+    $('#carousel-example-generic').carousel({
+        interval: interval
+    });
+});
   
