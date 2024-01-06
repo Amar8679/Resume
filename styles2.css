@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #0a0a33; /* Darker background color */
+    color: #ffffff; /* Light text color */
+}
+
+body.p {
+    font-size: 30px;
+    color: #ffffff; /* Light text color for paragraphs */
+}
+
+.navbar {
+    background-color: #1a1a66; /* Darker shade of blue for the navbar */
+    border: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    font-size: 14px;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus {
+    background-color: #333399; /* Slightly darker shade for the active link */
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px; /* Adjust the margin-top to create space below the navbar */
+}
+
+footer{
+    color: rgb(191, 191, 191);
+    font-size: small;
+}

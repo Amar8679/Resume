@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+}
+
+.tcb-bs-fullscreen {
+    height: 100%;
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+}
+
+.carousel-bg {
+    .carousel-inner {
+        .item {
+            background-color: darkslategrey;
+            background-size: cover;
+            background-position: center;
+            min-height: 360px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+}
+
+.carousel-inner .item {
+    background-color: darkslategrey;
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+footer{
+    color: rgb(30, 20, 20);
+}
